@@ -2,7 +2,7 @@
 # Enable TLSv1.2 for compatibility with older clients
 [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12
 
-$DownloadURL = 'https://raw.githubusercontent.com/stan0ne/WINsgrave/main/WIN.cmd'
+$DownloadURL = 'https://raw.githubusercontent.com/stan0ne/massgrave/main/WIN.cmd'
 # $DownloadURL = 'https://gitlab.com/WINsgrave/microsoft-activation-scripts/-/raw/WINter/WIN/All-In-One-Version/WIN_AIO.cmd'
 # $DownloadURL2 = 'https://raw.githubusercontent.com/WINsgravel/Microsoft-Activation-Scripts/WINter/WIN/All-In-One-Version/WIN_AIO.cmd'
 
